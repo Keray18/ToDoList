@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@500&family=Anuphan:wght@100&family=Crimson+Text:ital,wght@1,700&family=EB+Garamond:ital@1&family=Eagle+Lake&family=Exo+2:wght@300&family=Montserrat:wght@200&family=Philosopher&family=Poppins:wght@200&family=Roboto+Slab&family=Roboto:ital@1&family=Schibsted+Grotesk&display=swap');
+
+ul li{
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: rgb(252, 241, 222);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  border: none;
 }

@@ -1,0 +1,80 @@
+.container {
+    background-color: #673AB7;
+    width: 50%;
+    margin: auto;
+    min-height: 80vh;
+    padding: 4vmax;
+    box-sizing: border-box;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;  
+ 
+}
+input {
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
+input::placeholder {
+    font-size: medium;
+    padding: 0.2rem;
+}
+
+textarea {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0.8rem;
+    font-size: large;
+    font-weight: bold;
+}
+textarea::placeholder {
+    font-size: medium;
+
+}
+
+form button {
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.same {
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+}
+
+.task > div {
+    width: 100%;
+}
+
+.task button {
+    background-color: crimson;
+    color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

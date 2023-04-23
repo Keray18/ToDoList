@@ -1,0 +1,11 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+.head h2 {
+    margin-top: 0.5rem;
+    font-weight: bolder;
+}
